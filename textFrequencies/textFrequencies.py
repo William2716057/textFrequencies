@@ -1,3 +1,4 @@
+from tkinter import WORD
 import matplotlib.pyplot as plt
 
 #function to create dictionary for word storage
@@ -31,6 +32,10 @@ def wordplots(wordCounts):
 
     plt.show()
 
-inputText = ""
+inputText = "" #add sample text here 
 
-wordstoCount = [""]
+wordstoCount = ["", "", "", "", "", "", ""] #add words between quotes
+
+Counts = stored(inputText, wordstoCount)
+
+wordplots(Counts)
