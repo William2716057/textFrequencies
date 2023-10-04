@@ -24,7 +24,7 @@ def wordplots(wordCounts):
     counts = list(wordCounts.values())
 
     plt.figure(figsize=(10, 6))
-    plt.bar(words, counts)
+    plt.plot(words, counts)
     plt.xlabel('Words')
     plt.ylabel('Occurrences')
     plt.title('Word Occurrences')
@@ -32,10 +32,10 @@ def wordplots(wordCounts):
 
     plt.show()
 
-inputText = """""" #add sample text here 
+inputText = """this is some text text this this this this""" #add sample text here 
+ 
 
-
-wordstoCount = ["", "", "", "", "", "", ""] #add words between quotes
+wordstoCount = ["this", "text", "this", "some", "is", "hat", "shoe"] #add words between quotes
 
 Counts = stored(inputText, wordstoCount)
 
