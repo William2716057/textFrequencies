@@ -32,7 +32,8 @@ def wordplots(wordCounts):
 
     plt.show()
 
-inputText = "" #add sample text here 
+inputText = """""" #add sample text here 
+
 
 wordstoCount = ["", "", "", "", "", "", ""] #add words between quotes
 
